@@ -22,12 +22,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <fr.simon.marquis.preferencesmanager.roboto.RobotoButton
+        <Button
             android:id="@+id/btnKO"
             style="@style/PreferenceDialogBtn"
             android:text="@string/dialog_cancel" />
 
-        <fr.simon.marquis.preferencesmanager.roboto.RobotoButton
+        <Button
             android:id="@+id/btnOK"
             style="@style/PreferenceDialogBtn"
             android:text="@string/dialog_add" />

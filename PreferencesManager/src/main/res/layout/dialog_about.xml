@@ -21,7 +21,7 @@
     android:orientation="vertical"
     android:showDividers="middle" >
 
-    <fr.simon.marquis.preferencesmanager.roboto.RobotoTextView
+    <TextView
         android:id="@+id/app_name_and_version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,23 +32,21 @@
         android:drawableLeft="@drawable/ic_launcher"
         android:drawablePadding="8dp"
         android:gravity="center_vertical"
-        android:textSize="24sp"
-        app:typeface="robotoslab_bold" />
+        android:textSize="24sp" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" >
 
-        <fr.simon.marquis.preferencesmanager.roboto.RobotoTextView
+        <TextView
             android:id="@+id/about_body"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingMultiplier="1.2"
             android:padding="16dp"
             android:textIsSelectable="true"
-            android:textSize="16sp"
-            app:typeface="robotoslab_regular" />
+            android:textSize="16sp" />
     </ScrollView>
 
 </LinearLayout>

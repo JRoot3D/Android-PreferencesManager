@@ -28,7 +28,7 @@
         android:orientation="vertical"
         tools:ignore="UselessParent">
 
-        <fr.simon.marquis.preferencesmanager.roboto.RobotoTextView
+        <TextView
             android:id="@+id/item_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,10 +38,9 @@
             android:layout_marginTop="8dp"
             android:ellipsize="end"
             android:lines="1"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            app:typeface="robotoslab_regular" />
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <fr.simon.marquis.preferencesmanager.roboto.RobotoTextView
+        <TextView
             android:id="@+id/item_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,8 +51,7 @@
             android:ellipsize="end"
             android:lines="1"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@android:color/tertiary_text_light"
-            app:typeface="robotoslab_light" />
+            android:textColor="@android:color/tertiary_text_light" />
     </LinearLayout>
 
 </LinearLayout>

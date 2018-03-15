@@ -17,7 +17,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/PreferenceDialogContainer" >
 
-    <fr.simon.marquis.preferencesmanager.roboto.RobotoTextView
+    <TextView
         android:id="@+id/title"
         style="@style/PreferenceDialogTitle" />
 
@@ -25,7 +25,7 @@
         style="@style/FloatLabelContainerKey"
         app:floatLabelTextAppearance="@style/TextAppearance.PreferencesManager.FloatLabel.Red">
 
-        <fr.simon.marquis.preferencesmanager.roboto.RobotoEditText
+        <EditText
             android:id="@+id/key"
             style="@style/EditTextKey"
             android:background="@drawable/edittext_red_edit_text_holo_light" />
@@ -36,7 +36,7 @@
         style="@style/FloatLabelContainerValue"
         app:floatLabelTextAppearance="@style/TextAppearance.PreferencesManager.FloatLabel.Red">
 
-        <fr.simon.marquis.preferencesmanager.roboto.RobotoEditText
+        <EditText
             android:id="@+id/value"
             style="@style/EditTextValue"
             android:inputType="numberSigned"

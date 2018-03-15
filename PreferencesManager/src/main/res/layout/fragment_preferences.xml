@@ -50,15 +50,14 @@
             android:layout_marginBottom="10dp"
             android:src="@drawable/empty_view" />
 
-        <fr.simon.marquis.preferencesmanager.roboto.RobotoTextView
+        <TextView
             android:id="@+id/emptyViewText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/empty_preference_file_valid"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@android:color/tertiary_text_light"
-            app:typeface="robotoslab_light" />
+            android:textColor="@android:color/tertiary_text_light" />
     </LinearLayout>
 
     <ProgressBar
